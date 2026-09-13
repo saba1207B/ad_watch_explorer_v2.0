@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AURELION — Rose Sovereign</title>
+  <meta name="description" content="The Rose Sovereign by AURELION. Rose gold craftsmanship meets skeletal mastery. Limited to 300 pieces.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@200;300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- SCROLL PROGRESS -->
+  <div id="scroll-progress"></div>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <div class="nav-logo">AURELION</div>
+    <a href="#cta-section" class="nav-btn" id="nav-reserve-btn">Reserve Now</a>
+  </nav>
+
+  <!-- STICKY CANVAS -->
+  <div id="sequence-container">
+    <canvas id="watch-canvas"></canvas>
+    <div class="seq-overlay seq-top"></div>
+    <div class="seq-overlay seq-bottom"></div>
+    <div class="seq-overlay seq-left"></div>
+    <div class="seq-overlay seq-right"></div>
+  </div>
+
+  <!-- PAGE CONTENT -->
+  <div id="page-content">
+
+    <!-- HERO -->
+    <section id="hero-section">
+      <div class="hero-inner" id="hero-text">
+        <p class="eyebrow">Rose Gold Collection · Swiss Made</p>
+        <h1 class="hero-title">ROSE<br>SOVEREIGN</h1>
+        <p class="hero-sub">by <span>AURELION</span></p>
+        <p class="hero-tagline">Rose gold warmth.<br>Skeletal precision. Pure poetry.</p>
+        <div class="scroll-cue">
+          <div class="scroll-line"></div>
+          <span>Scroll to discover</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SCRUB SECTION -->
+    <section id="scrub-section">
+      <div class="scrub-label" id="label-skeleton">
+        <span class="label-tag">Open Architecture</span>
+        <p>The fully skeletonised dial removes every unnecessary gram — leaving only the soul of the movement exposed in breathtaking clarity.</p>
+      </div>
+      <div class="scrub-label scrub-label-right" id="label-gears">
+        <span class="label-tag">Rose Gold Case</span>
+        <p>18K 5N rose gold case and bridges catch the light at every angle. Warm, rare, and finished by hand to a mirror polish.</p>
+      </div>
+      <div class="scrub-label" id="label-explosion">
+        <span class="label-tag">Ruby Jewels</span>
+        <p>Seventeen precision ruby bearings reduce friction across every pivot. Each one individually set and inspected under 40× magnification.</p>
+      </div>
+      <div class="scrub-label scrub-label-right" id="label-reassemble">
+        <span class="label-tag">Eternal Motion</span>
+        <p>A bidirectional rotor winds the mainspring through every wrist movement, storing up to 72 hours of precise, rhythmic energy.</p>
+      </div>
+    </section>
+
+    <!-- SPECS -->
+    <section id="specs-section">
+      <div class="specs-header">
+        <h2 class="section-title">Crafted Without Compromise</h2>
+        <div class="title-rule"></div>
+      </div>
+      <div class="specs-grid">
+        <div class="spec-card" data-delay="0">
+          <div class="spec-icon">🌹</div>
+          <div class="spec-number">18K</div>
+          <div class="spec-label">Rose Gold</div>
+          <div class="spec-desc">5N alloy, hand-polished case & bridges</div>
+        </div>
+        <div class="spec-card" data-delay="100">
+          <div class="spec-icon">⚙️</div>
+          <div class="spec-number">286</div>
+          <div class="spec-label">Components</div>
+          <div class="spec-desc">Each individually hand-finished</div>
+        </div>
+        <div class="spec-card" data-delay="200">
+          <div class="spec-icon">💎</div>
+          <div class="spec-number">17</div>
+          <div class="spec-label">Ruby Jewels</div>
+          <div class="spec-desc">Precision-set friction reduction</div>
+        </div>
+        <div class="spec-card" data-delay="300">
+          <div class="spec-icon">⏱</div>
+          <div class="spec-number">72h</div>
+          <div class="spec-label">Power Reserve</div>
+          <div class="spec-desc">Bidirectional automatic winding</div>
+        </div>
+        <div class="spec-card" data-delay="400">
+          <div class="spec-icon">🔬</div>
+          <div class="spec-number">±2s</div>
+          <div class="spec-label">Daily Accuracy</div>
+          <div class="spec-desc">COSC-certified precision</div>
+        </div>
+        <div class="spec-card" data-delay="500">
+          <div class="spec-icon">✦</div>
+          <div class="spec-number">300</div>
+          <div class="spec-label">Pieces Only</div>
+          <div class="spec-desc">Individually numbered & certified</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUOTE -->
+    <section id="quote-section">
+      <blockquote class="luxury-quote">
+        <p>"In rose gold, warmth is not a colour — it is a philosophy. A declaration that time, like love, is worth adorning."</p>
+        <cite>— Head of Complications, AURELION Geneva</cite>
+      </blockquote>
+    </section>
+
+    <!-- CTA -->
+    <section id="cta-section">
+      <div class="cta-inner" id="cta-card">
+        <div class="cta-emblem">✦</div>
+        <p class="cta-eyebrow">Rose Sovereign · Limited Edition 2026</p>
+        <div class="cta-price">$18,900</div>
+        <p class="cta-edition">300 Pieces · 18K Rose Gold · Numbered Certificate</p>
+        <button class="reserve-btn" id="main-reserve-btn">
+          <span>Reserve Your Piece</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </button>
+        <div class="cta-perks">
+          <div class="cta-perk"><span>✈</span> Complimentary worldwide delivery</div>
+          <div class="cta-perk"><span>🛡</span> 5-year international warranty</div>
+          <div class="cta-perk"><span>📜</span> Signed certificate of authenticity</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="site-footer">
+      <div class="footer-logo">AURELION</div>
+      <p class="footer-tagline">Where Precision Meets Art</p>
+      <div class="footer-rule"></div>
+      <p class="footer-copy">© 2026 AURELION Horlogerie · Geneva, Switzerland · All Rights Reserved</p>
+    </footer>
+
+  </div>
+
+  <!-- RESERVE MODAL -->
+  <div id="reserve-modal" class="modal-overlay">
+    <div class="modal-box">
+      <button class="modal-close" id="modal-close">✕</button>
+      <div class="modal-emblem">✦</div>
+      <h3 class="modal-title">Reserve the Rose Sovereign</h3>
+      <p class="modal-sub">Complete your reservation and a personal horologist will contact you within 24 hours.</p>
+      <form class="modal-form" id="reserve-form">
+        <input type="text" placeholder="Your Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <input type="tel" placeholder="Phone Number">
+        <select>
+          <option value="" disabled selected>Preferred Strap</option>
+          <option>Black Alligator Leather</option>
+          <option>Burgundy Alligator Leather</option>
+          <option>18K Rose Gold Bracelet</option>
+          <option>Brown Calfskin</option>
+        </select>
+        <button type="submit" class="modal-submit">Confirm Reservation</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="sequence.js"></script>
+</body>
+</html>
