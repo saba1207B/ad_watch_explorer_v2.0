@@ -11,6 +11,12 @@
 
 ---
 
+## 🌐 Live Demo
+
+**[View the live website](https://saba1207b.github.io/ad_watch_explorer_v2.0/)**
+
+---
+
 ## ✨ Features
 
 - **High-Fidelity 120fps Scroll Animation**: 300 ultra-high-definition frames rendered via HTML5 Canvas with sub-pixel interpolation, frame blending, and DPR capping.
